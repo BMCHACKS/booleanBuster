@@ -1,0 +1,11 @@
+// '*' = 0 or more | '+' = 1 or more | '?' = 0 or 1 | '|' = alternation
+
+program      := statement*
+statement    := boolean_exp ';'
+
+boolean_exp  := unary_exp (binary_gate unary_exp)*
+unary_exp    := NOT unary_exp | primary
+primary      := identifier | '(' boolean_exp ')'
+
+binary_gate  := AND | OR | XOR | XNOR | NAND | NOR
+identifier   := [A-Za-z_][A-Za-z0-9_]*    // must not match a gate keyword
