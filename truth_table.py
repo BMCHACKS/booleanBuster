@@ -6,8 +6,8 @@ from itertools import product
 
 from colorama import Back, Fore, Style
 
-from .ast_nodes  import Node, to_text, variables
-from .transpiler import Evaluator
+from ast_nodes  import Node, to_text, variables
+from transpiler import Evaluator
 
 MAX_VARIABLES = 12   # 2**12 = 4096 rows, more than that is just a wall of text
 
