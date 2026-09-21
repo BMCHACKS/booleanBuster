@@ -15,12 +15,12 @@
 import colorama
 
 from colorama     import Back, Fore, Style
-from .ast_nodes    import Node, to_text, variables
-from .compare      import compare_expressions
-from .parser       import ParseError, Parser
-from .tokenizer    import Tokenizer
-from .transpiler   import Evaluator, compile_expression
-from .truth_table  import truth_table
+from ast_nodes    import Node, to_text, variables
+from compare      import compare_expressions
+from parser       import ParseError, Parser
+from tokenizer    import Tokenizer
+from transpiler   import Evaluator, compile_expression
+from truth_table  import truth_table
 
 HELP = """\
   <expression>;        enter an expression, e.g.  A AND NOT (B XOR C);
