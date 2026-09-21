@@ -10,9 +10,9 @@ from itertools import product
 
 from colorama   import Back, Fore, Style
 
-from .ast_nodes    import Node, to_text, variables
-from .transpiler   import compile_expression
-from .truth_table  import MAX_VARIABLES
+from ast_nodes    import Node, to_text, variables
+from transpiler   import compile_expression
+from truth_table  import MAX_VARIABLES
 
 def _paint(text: str, *styles: str) -> str:
     # pad BEFORE colouring, otherwise the invisible ANSI codes break the alignment
