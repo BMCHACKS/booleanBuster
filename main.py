@@ -41,8 +41,8 @@ def ensure_requirements() -> None:
  
 def main() -> None:
     ensure_requirements()
-    from .animation   import play_animation
-    from .interpreter import _start
+    from animation   import play_animation
+    from interpreter import _start
     play_animation()
     _start()
  
