@@ -7,8 +7,8 @@ from typing      import Generator, Any
 from string      import digits, ascii_letters
 
 # custom imports
-from .keywords    import kw_dict
-from .token_types import TokenType
+from keywords    import kw_dict
+from token_types import TokenType
 
 ascii_letters_underscore_digits = ascii_letters + "_" + digits
 
