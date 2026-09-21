@@ -4,9 +4,14 @@ An interactive boolean-expression interpreter for the terminal. Type an expressi
 values of its variables, print its truth table, or compare several expressions to see whether
 they're equivalent.
 
+Yap yap yap yappity yap.
+
+It's basically was a way for me to procastinate doing my actual DLD lab.
+Tho, it is better than manually toggling bits in proteus.
+
 ## Usage
 
-Start it with `booleanbuster` (or `python -m booleanbuster`), then type expressions ending in `;`
+Start it with `booleanbuster` (or `python main.py`), then type expressions ending in `;`
 (the final `;` is added for you if you forget it):
 
 ```
